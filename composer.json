@@ -1,0 +1,36 @@
+{
+    "name": "isaac/slugify-cli",
+    "description": "CLI wrapper for the cocur/slugify package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SlugifyCli\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aad Mathijssen",
+            "email": "aad.mathijssen@isaac.nl"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0 || ~8.0.0 || ~8.1.0",
+        "cocur/slugify": "^4.2"
+    },
+    "require-dev": {
+        "isaac/php-code-sniffer-standard": "^28.1",
+        "phpstan/phpstan": "^1.9",
+        "phpstan/extension-installer": "^1.2",
+        "phpstan/phpstan-strict-rules": "^1.4"
+    },
+    "bin": [
+        "bin/slugify"
+    ],
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
+        }
+    }
+}
