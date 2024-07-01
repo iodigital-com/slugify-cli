@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Changed
 
 Replace `isaac/php-code-sniffer-standard` package (v28.1.0) by `iodigital-com/php-code-sniffer-standard` (v29.2.0)
+Upgrade `phpstan/extension-installer` (1.2.0 => 1.4.1)
+Upgrade `phpstan/phpstan` (1.9.0 => 1.11.6)
+Upgrade `phpstan/phpstan-strict-rules` (1.4.4 => 1.6.0)
 
 ## v1.0.0 - 2022-11-04
 

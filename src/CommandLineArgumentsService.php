@@ -94,6 +94,7 @@ USAGE_DETAILS;
     public function parseOptions(): CommandLineArguments
     {
         $restIndex = 0;
+        /** @var array<string, array<int, string|false>|string|false>|false $opts */
         $opts = getopt(self::GETOPT_SHORT_OPTIONS, self::GETOPT_LONG_OPTIONS, $restIndex);
         if ($opts === false) {
             throw new UnexpectedValueException('could not parse command-line options');
