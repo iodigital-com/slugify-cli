@@ -19,10 +19,10 @@
         "cocur/slugify": "^4.2"
     },
     "require-dev": {
-        "isaac/php-code-sniffer-standard": "^28.1",
         "phpstan/phpstan": "^1.9",
         "phpstan/extension-installer": "^1.2",
-        "phpstan/phpstan-strict-rules": "^1.4"
+        "phpstan/phpstan-strict-rules": "^1.4",
+        "iodigital-com/php-code-sniffer-standard": "^29.2"
     },
     "bin": [
         "bin/slugify"

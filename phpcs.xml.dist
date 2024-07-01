@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset>
     <file>src</file>
-    <rule ref="ISAAC"/>
+    <rule ref="IO"/>
 
     <!-- Configure minimum supported PHP version (used by PHP_CodeSniffer and Slevomat sniffs) -->
     <config name="php_version" value="70400"/>
