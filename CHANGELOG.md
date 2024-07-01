@@ -17,6 +17,7 @@ Replace `isaac/php-code-sniffer-standard` package (v28.1.0) by `iodigital-com/ph
 Upgrade `phpstan/extension-installer` (1.2.0 => 1.4.1)
 Upgrade `phpstan/phpstan` (1.9.0 => 1.11.6)
 Upgrade `phpstan/phpstan-strict-rules` (1.4.4 => 1.6.0)
+Update copyright year and name
 
 ### Removed
 
