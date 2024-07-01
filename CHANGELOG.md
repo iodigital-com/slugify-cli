@@ -18,6 +18,7 @@ Upgrade `phpstan/extension-installer` (1.2.0 => 1.4.1)
 Upgrade `phpstan/phpstan` (1.9.0 => 1.11.6)
 Upgrade `phpstan/phpstan-strict-rules` (1.4.4 => 1.6.0)
 Update copyright year and name
+Update author email
 
 ### Removed
 
