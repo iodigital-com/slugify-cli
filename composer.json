@@ -1,5 +1,8 @@
 {
-    "name": "isaac/slugify-cli",
+    "name": "iodigital-com/slugify-cli",
+    "replace": {
+        "isaac/slugify-cli": "*"
+    },
     "description": "CLI wrapper for the cocur/slugify package",
     "type": "project",
     "license": "MIT",
