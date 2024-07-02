@@ -9,13 +9,13 @@ Installation
 
 Add the package as a requirement to your project:
 
-    $ composer require isaac/slugify-cli
+    $ composer require iodigital-com/slugify-cli
 
 This will install the `slugify-cli` script to the `vendor/bin` folder of the project.
 
 Or as a global requirement:
 
-    $ composer global require isaac/slugify-cli
+    $ composer global require iodigital-com/slugify-cli
 
 This will install the `slugify` script to the `$HOME/.composer/vendor/bin` folder.
 
