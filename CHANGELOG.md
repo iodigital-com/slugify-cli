@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## Unreleased
 
+## v1.2.0 - 2024-07-02
+
 ### Changed
 
 - Rename package from `isaac/slugify-cli` to `iodigital-com/slugify-cli`
