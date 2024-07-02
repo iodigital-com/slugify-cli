@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset>
     <file>src</file>
-    <rule ref="ISAAC"/>
+    <rule ref="IO"/>
 
     <!-- Configure minimum supported PHP version (used by PHP_CodeSniffer and Slevomat sniffs) -->
-    <config name="php_version" value="70400"/>
+    <config name="php_version" value="80000"/>
     <!-- Configure PHP version or range of PHP versions (used by PHPCompatibility sniffs) -->
-    <config name="testVersion" value="7.4-8.1"/>
+    <config name="testVersion" value="8.0-8.3"/>
 
     <arg name="extensions" value="php"/>
     <arg name="cache"/>

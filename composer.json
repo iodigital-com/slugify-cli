@@ -11,18 +11,18 @@
     "authors": [
         {
             "name": "Aad Mathijssen",
-            "email": "aad.mathijssen@isaac.nl"
+            "email": "aad.mathijssen@iodigital.com"
         }
     ],
     "require": {
-        "php": "~7.4.0 || ~8.0.0 || ~8.1.0",
+        "php": "~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0",
         "cocur/slugify": "^4.2"
     },
     "require-dev": {
-        "isaac/php-code-sniffer-standard": "^28.1",
-        "phpstan/phpstan": "^1.9",
-        "phpstan/extension-installer": "^1.2",
-        "phpstan/phpstan-strict-rules": "^1.4"
+        "phpstan/phpstan": "^1.11",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan-strict-rules": "^1.6",
+        "iodigital-com/php-code-sniffer-standard": "^29.2"
     },
     "bin": [
         "bin/slugify"

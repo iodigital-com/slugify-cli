@@ -33,7 +33,7 @@ class CommandLineOptionService
 
     /**
      * @param array<string> $optionKeys
-     * @param array<string, array<int, mixed>|string|false> $opts
+     * @param array<string, array<int, string|false>|string|false> $opts
      */
     public function hasOption(array $optionKeys, array $opts): bool
     {
@@ -47,7 +47,7 @@ class CommandLineOptionService
 
     /**
      * @param array<string> $optionKeys
-     * @param array<string, array<int, mixed>|string|false> $opts
+     * @param array<string, array<int, string|false>|string|false> $opts
      */
     public function getOptionalStringOptionValue(array $optionKeys, array $opts): ?string
     {
@@ -66,7 +66,7 @@ class CommandLineOptionService
 
     /**
      * @param array<string> $optionKeys
-     * @param array<string, array<int, mixed>|string|false> $opts
+     * @param array<string, array<int, string|false>|string|false> $opts
      * @return array<string>
      */
     public function getOptionalArrayOptionValues(array $optionKeys, array $opts): ?array
@@ -87,7 +87,7 @@ class CommandLineOptionService
 
     /**
      * @param array<string> $optionKeys
-     * @param array<string, array<int, mixed>|string|false> $opts
+     * @param array<string, array<int, string|false>|string|false> $opts
      *
      * @return array<string>
      */
