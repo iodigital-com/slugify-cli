@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: slugify-cli
+  title: Slugify CLI
+  description: A CLI wrapper around the [cocur/slugify](https://github.com/cocur/slugify) package.
+  namespace: io
+  tags:
+    - php
+  annotations:
+    jira/project-key: IDEVT
+    jira/label: slugify-cli
+spec:
+  type: tool
+  lifecycle: development
+  owner: default/team_chapter_php_eindhoven
